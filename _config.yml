@@ -14,3 +14,12 @@ permalink: /:title/ # /blog/:year/:month/:day/:title/
 google_analytics: UA-66122866-1
 
 disqus_shortname: AndyMDoyle
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - tailwind.config.js
